@@ -19,6 +19,7 @@ export default function Home() {
         style={{ left: `${Math.sin(left * 0.05) * 100 + 100}px` }}
         className="ball"
       ></div>
+      {left}
       <h2>
         Count: {count} <button onClick={() => setCount(count + 1)}>+</button>
       </h2>
